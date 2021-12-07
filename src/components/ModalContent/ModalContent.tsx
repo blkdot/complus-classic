@@ -7,7 +7,7 @@ const ModalContent: React.FC = ({ children }) => {
 
 const StyledModalContent = styled.div`
   padding: 18px;
-  @media (max-width: ${(props) => props.theme.breakpoints.mobile}px) {
+  @media (max-width: 480px) {
     flex: 1;
     overflow: auto;
   }

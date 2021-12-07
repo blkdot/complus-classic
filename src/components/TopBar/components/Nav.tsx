@@ -11,7 +11,8 @@ const Nav: React.FC = () => {
       <StyledLink exact activeClassName="active" to="/peggedCom">COM+</StyledLink>
       <StyledAbsoluteLink href="https://complusbridge.com" target="_blank">Bridge</StyledAbsoluteLink>
       <StyledAbsoluteLink href="https://avagraph.live" target="_blank">Analytics</StyledAbsoluteLink>
-      <StyledAbsoluteLink href="https://avadex.complus.exchange" target="_blank">DEX</StyledAbsoluteLink>
+      <StyledLink exact activeClassName="active" to="/swap">DEX</StyledLink>
+      {/* <StyledAbsoluteLink href="https://avadex.complus.exchange" target="_blank">DEX</StyledAbsoluteLink> */}
     </StyledNav>
   )
 }
